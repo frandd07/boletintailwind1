@@ -6,7 +6,14 @@ export default function Ejercicio3() {
 
   return (
     <nav className="bg-gray-800 text-white p-4 flex justify-between items-center relative">
-      <div className="font-bold">Logo</div>
+      <div className="font-bold">
+        <img
+          width="48"
+          height="48"
+          src="https://img.icons8.com/color/48/domain--v1.png"
+          alt="domain--v1"
+        />
+      </div>
       <div className="hidden md:flex space-x-4">
         <a href="#" className="hover:text-blue-400">
           Home
