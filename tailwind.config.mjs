@@ -1,15 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        whatsappGreen: "#25D366",
+        whatsappDark: "#075E54",
+        whatsappLight: "#DCF8C6",
+        whatsappBlue: "#34B7F1",
+        backgroundDark: "#101D24",
       },
     },
   },
